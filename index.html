@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Dehkoo</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Include your CSS file here -->
+</head>
+<body>
+  <header>
+    <h1>Welcome to the Job Dhekoo </h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Jobs.html">Job Listings</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Find Your Dream Job</h2>
+    <form action="index.html" method="GET">
+      <input type="text" name="keywords" placeholder="Keywords">
+      <input type="text" name="location" placeholder="Location">
+      <select name="category">
+        <option value="">All Categories</option>
+        <option value="IT">IT</option>
+        <option value="Marketing">Marketing</option>
+        <option value="Finance">Finance</option>
+        <!-- Add more categories here -->
+      </select>
+      <button type="submit" id="searchButton" onclick="Search.js">Search</button>
+    </form>
+  </section>
+
+  <section name="jobs">
+    <h2>Featured Jobs</h2>
+    <ul>
+      <li>
+        <h3 style="color: black;">Software Developer</h3>
+        <p style="color: black;">Amazon Company</p>
+        <p style="color: black;">Bangalore, Karnataka</p>
+        <a href="https://www.amazon.jobs" target="_blank">View Details</a>
+      </li>
+      <li>
+        <h3 style="color: black;">Service desk analyst</h3>
+        <p style="color: black;">Wipro Pvt Ltd</p>
+        <p style="color: black;">India</p>
+        <a href="https://careers.wipro.com/careers-home/jobs" target="_blank">View Details</a>
+      </li>
+      <!-- Add more featured jobs here -->
+    </ul>
+    <a href="Jobs.html" style="color :white">More...</a>  
+</section>
+
+  <footer>
+    <p>&copy; 2023 Job Portal. All rights reserved bt @Guduru Bhargava Veera Bhadra</p>
+  </footer>
+</body>
+</html>
